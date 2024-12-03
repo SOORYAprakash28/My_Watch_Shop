@@ -28,6 +28,11 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['my-watch-shop.onrender.com','0.0.0.0']
 
+CSRF_TRUSTED_ORIGINS = ['https://my-watch-shop.onrender.com']
+
+CSRF_COOKIE_SECURE = True
+
+
 
 # Application definition
 
