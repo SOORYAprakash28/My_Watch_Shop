@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-%*10z(c3_nfal@j1$dmmqsv=bw4lfit^#o4e!7h2g*$xd9fsb7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['my-watch-shop.onrender.com','0.0.0.0']
 
 
 # Application definition
